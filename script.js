@@ -8,20 +8,30 @@ const filtres = document.querySelector("#filtres");
 const liste = document.querySelector("#liste");
 const paraghraph_total = document.querySelector("#total");
 
-const a = document.querySelectorAll(".filtres");
+// const a = document.querySelectorAll(".filtres");
 
-const b = document.getElementsByClassName("filtres");
+// const b = document.getElementsByClassName("filtres");
 
-console.log(a.length);
+// console.log(a.length);
 
-console.log(b.length);
+// console.log(b.length);
 
- const n = document.createElement("button");
-  n.className = "filtres"; 
- document.querySelector("#filtres").append(n);
-console.log(a.length);
+//  const n = document.createElement("button");
+//   n.className = "filtres"; 
+//  document.querySelector("#filtres").append(n);
+// console.log(a.length);
 
-console.log(b.length);   
+// console.log(b.length);
+
+
+
+console.log(liste.children.length);
+
+console.log(liste.childNodes.length);
+
+console.log(liste.firstChild);
+
+
 
 
 
