@@ -8,6 +8,30 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+<form id ="form" novalidate>
+    <input  type="text"  id="nom">
+    <input type="number" id = "montant">
+    
+    <select id="cat">
+        <option value="choise" disabled selected>choise</option>
+        <option value="food">food</option>
+        <option value="transport">transport</option>
+        <option value="loisirs">loisirs</option>    
+    </select>
+    <button >click here </button>
+    <p id="erreur"></p>
+<div id="filtres">
+    <button class="filtres" data-cat="tous">Tous</button>
+    <button class="filtres" data-cat="food">food</button>
+    <button class="filtres" data-cat="transport">transport</button>
+    <button class="filtres" data-cat="loisirs">loisirs</button>
+    <ul id="liste"></ul>
+    <p id="total"></p>
+    
+    
+</div>
+
+</form>
     
 </body>
 </html>
