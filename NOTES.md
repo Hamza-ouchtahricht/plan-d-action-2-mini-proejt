@@ -15,3 +15,8 @@ hna awl haja drt hiya l form kamla drt fiha ga3 les element li ghadi nhtaj bach 
 
  ila makhwitch list b ihnir html w rdith "" f kola mra an3yt 3liha ghadi tb3 dakchi l9dim lfiha m3a dakchi jdid dakchi
 
+
+ ylh salit etap 4  awl haja preventDefault katkhlini nmn3  l page mt3awdch dirch refrach hit ila dart refrach w ana kan3mr l form ga3 dakchi li 3mrt aymchi maghadich yb9a 
+
+ w bnsba ldik 0 3lach drna > wmach >= hit ila l user madkhl walo f ya3ni kant "" dik lfaragh li khla l user kaytsma 0 ya3ni khaso ykon akbr mn 0 machi akbar aw kaysawih 
+

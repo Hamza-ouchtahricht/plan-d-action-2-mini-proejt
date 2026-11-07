@@ -8,7 +8,7 @@ const filtres = document.querySelector("#filtres");
 const liste = document.querySelector("#liste");
 const paraghraph_total = document.querySelector("#total");
 
-// const a = document.querySelectorAll(".filtres");
+//  const a = document.querySelectorAll(".filtres");
 
 // const b = document.getElementsByClassName("filtres");
 
@@ -63,6 +63,42 @@ let depenses = [
     paraghraph_total.textContent = `${total}`;
   
  }
+
+ form.addEventListener("submit", (e) =>{
+    e.preventDefault();
+ 
+
+ const nom = input_text.value.trim();
+
+ if(nom.length<2){
+    paraghraph_erreur.textContent = "Nom : 2 caractères minimum";
+    paraghraph_erreur.style.color = "red";
+    return;
+ };
+
+ if(!(input_montant.value>0)){
+    paraghraph_erreur.textContent = "Montant : un nombre plus grand que 0"
+    paraghraph_erreur.style.color = "red";
+    return;
+ }
+
+ paraghraph_erreur.textContent = "";
+
+ let new_objet = { id: Date.now(), nom:nom, montant: Number(input_montant.value), cat: select.value
+
+ }
+
+    depenses.push(new_objet);
+
+    afficher(depenses);
+
+
+
+ form.reset();
+
+}
+);
+
 
 
 afficher(depenses);
