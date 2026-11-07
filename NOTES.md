@@ -13,3 +13,5 @@ hna awl haja drt hiya l form kamla drt fiha ga3 les element li ghadi nhtaj bach 
 
  ama liste.firsyChild kat3tik awl element wld dik ul kayn mataln ila bghit tl3 lik li hiya lwla khas maykon hta chi espace binha wbin ul hit ila drti console.log wmchiti tchof f console result ay3tik texte dak espace li khliti aykon howa first child 
 
+ ila makhwitch list b ihnir html w rdith "" f kola mra an3yt 3liha ghadi tb3 dakchi l9dim lfiha m3a dakchi jdid dakchi
+
