@@ -31,12 +31,41 @@ console.log(liste.childNodes.length);
 
 console.log(liste.firstChild);
 
+let depenses = [
+    { id: 1, nom: "Café", montant: 12, cat: "food" },
+    { id: 2, nom: "Tram", montant: 8, cat: "transport" }
+ ];
+ 
+ function afficher(tablue){
+    liste.innerHTML = "";
+    tablue.forEach(element => {
+
+        const li = document.createElement("li");
+        
+        li.textContent = `Nom: ${element.nom} Montant:${element.montant} `
+         
+        const button = document.createElement("button");
+        button.className = "suppr";
+        const span = document.createElement("span");
+        span.textContent = "🗑" ; 
+        button.append(span);
+        li.append(button); 
+        li.dataset.id = element.id;                                     
+
+        liste.append(li);
+
+    });
+    const total = tablue.reduce((somme,element)=>
+    somme +element.montant,0);
+
+    
+
+    paraghraph_total.textContent = `${total}`;
+  
+ }
+
+
+afficher(depenses);
 
 
 
-
-
-
-
-
-;
