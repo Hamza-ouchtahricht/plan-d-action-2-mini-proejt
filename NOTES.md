@@ -20,3 +20,9 @@ hna awl haja drt hiya l form kamla drt fiha ga3 les element li ghadi nhtaj bach 
 
  w bnsba ldik 0 3lach drna > wmach >= hit ila l user madkhl walo f ya3ni kant "" dik lfaragh li khla l user kaytsma 0 ya3ni khaso ykon akbr mn 0 machi akbar aw kaysawih 
 
+
+ f etap 5  
+awl haja fach drt console.log l event.target , event.currentTarget l9it event.target kat3tik bdbt fin kayn dak element li bghti dir lih dak event bhal f had example dik span li kayna wst l button 3tatni button li kayna fih ama bnsba l event.currentTarget fa hiya katrj3 l father li jam3hom kamlin li howa ul li fiha kolchi 
+
+fach jrbt nzid nzid depense jdid w mshto li lahdt howa anak mahdk hat add event listner 3la l father li hiya ul f ay element jdid zdtih katb93lih nafs lhaja li 3la lkhrin dak event listner li 3la liste kaytb9ha 3la element jdad w 9dam 
+

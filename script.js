@@ -92,16 +92,89 @@ let depenses = [
 
     afficher(depenses);
 
+ 
+
+    
+
+ form.reset(); 
+  
+
+ } )
+ 
 
 
- form.reset();
+
+ 
+
+
+//    liste.addEventListener("click", (event) => {
+//     const buton= event.target.closest(".suppr");
+//     if(!buton) return;
+//     const li_fil =buton.closest("li");
+//     const id = Number(li_fil.dataset.id);
+//     depenses = depenses.filter((d)=> d.id !== id)
+
+//     afficher(depenses); 
+
+//    });
+
+
+
+// liste.addEventListener("click", (event)=>{
+//     const boton = event.target.closest(".suppr");
+//     if(!boton ) return ;
+//     const li_supp = boton.closest("li");
+//     const id = Number(li_supp.dataset.id);
+//     depenses = depenses.filter((d)=>
+//         d.id != id)
+//     afficher(depenses);
+// });
+
+
+
+
+liste.addEventListener("click" , (event)=>{
+    const boton = event.target.closest(".suppr");
+    console.log(event.target , event.currentTarget);
+     if(!boton ) return;
+    const li_supp = boton.closest("li");
+    const id = Number(li_supp.dataset.id);
+    
+
+    depenses= depenses.filter((d)=>
+        d.id != id
+    )
+   
+ afficher(depenses);
 
 }
-);
+ 
+)
 
 
 
-afficher(depenses);
+
+
+
+
+
+
+
+
+
+
+
+   afficher(depenses); 
+
+
+
+
+
+
+
+
+
+
 
 
 
